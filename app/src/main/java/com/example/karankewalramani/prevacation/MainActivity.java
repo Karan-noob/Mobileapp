@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener()
         {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
 
                 DownloadManager downloadManager;
                 downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
